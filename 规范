@@ -1,0 +1,15 @@
+#coding:utf-8
+def cni(n,i):
+	minNI = min(int(i),int(n-i)     ###右边少了一个括号，干
+	ans = 1
+	for j in range(0,minNI):
+		ans = ans*(n-j)//(minNI-j)
+		return ans
+a = cni(5,2)
+print(a)
+
+  File "C:\Users\judy\Desktop\pi.py", line 4
+    ans = 1
+      ^
+SyntaxError: invalid syntax
+
